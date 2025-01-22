@@ -79,9 +79,7 @@ p {
   font-family: Gotham;
   cursor: pointer;
 }
-.card-btn {
 
-}
 .card-btn :hover {
   transform: scale(1.06);
 }
