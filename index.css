@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: gotham;
-  src: url(/font/Gotham-Black.otf);
+  src: url(./font/Gotham-Black.otf);
 }
 /* *::-webkit-scrollbar{
    width: 0;
