@@ -37,15 +37,20 @@ td:hover {
 p {
   color: white;
 }
-.tema ul li {
+/* .tema ul li {
   position: relative;
   left: 10%;
   bottom: 10px;
   display: flex;
-}
+} */
 .card {
-  position: absolute;
-  left: 18%;
+  display: flex;
+  background-color: none;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .card p {
   color: black;
@@ -75,8 +80,7 @@ p {
   cursor: pointer;
 }
 .card-btn {
-  position: absolute;
-  left: 38%;
+
 }
 .card-btn :hover {
   transform: scale(1.06);
@@ -87,13 +91,20 @@ p {
 .spoty svg {
   position: absolute;
   fill: white;
-  left: 6%;
-  top: 19px;
-  max-width:1080px;
+  max-width:1860px;
   min-width: 600px;
+  display: flex;
+  margin-top: 20px;
+  width: 40px;
   height: 40px;
   cursor: pointer;
 }
+
+.spoty svg path {
+  display: flex;
+  margin-left: 800px;
+} 
+
 .spoty2 svg {
   position: absolute;
   fill: white;
